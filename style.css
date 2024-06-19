@@ -1,0 +1,296 @@
+*{ margin: 0;}
+
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+#header{
+    display: flex;
+    height: 50px;
+}
+
+#header_top{
+    height:45px;
+    width: 100vw;
+    background-color: #f8f4f4;
+    padding: 0;
+}
+
+#email_logo{
+    height: 15px;
+    width: 15px;
+    margin-top: 15px;
+    margin-left: 350px;
+    list-style-type: none;
+    position: absolute;
+
+    
+}
+
+#texto_envio{
+    margin-left: 505px;
+    margin-top: 13px;
+    list-style-type: none;
+    font-size: 14px;
+    position: absolute;
+    margin-right: 45px;
+}
+
+#texto_email{
+    margin-left: 370px;
+    margin-top: 13px;
+    list-style-type: none;
+    font-size: small;
+    position: absolute;
+
+}
+
+#email ul{
+    display: flex;
+    list-style-type: none;
+}
+
+#facebook{
+    height: 5px;
+    width: 7px;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 1180px;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+#twitter{
+    height: 12px;
+    width: 11px;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 1213px;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+#linkedin{
+    width: 11px;
+    list-style-type: none;
+    margin-top: 11px;
+    margin-left: 1250px;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+#pinterest{
+    width: 10px;
+    list-style-type: none;
+    margin-top: 12px;
+    margin-left: 1285px;
+    cursor: pointer;
+    position: absolute;
+}
+
+#direita{
+    display: flex;
+}
+
+#esquerda{
+    display: flex;
+}
+
+#linha{
+    
+}
+
+#bandeira{
+    height: 15px;
+    list-style-type: none;
+    margin-left: 1330px;
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+
+#ingles_texto{
+    margin-top: -3px;
+    margin-left: 7px;
+    font-size: 14px;
+}
+
+.tabela_baixo{
+
+}
+
+#login{
+    width: 11px;
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+    margin-left: 135px;
+    position: absolute;
+    margin-top: 3px;
+
+}
+
+.login_texto{
+    margin-left: 18px;
+    position: absolute;
+    margin-top: -5px;
+    font-size: 14px;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: 1.3fr 1.3fr 1.3fr 1.3fr 1.3fr 1.3fr;
+    grid-template-rows: 80px 80px 431px 271px;
+}
+
+#main>div{
+    border: solid 1px;
+}
+#logo{
+    grid-column: 2;
+}
+
+#nav{
+    grid-column: 3/6;
+    display: flex;
+    font-size: 14px;
+    color: black;
+    letter-spacing: 2px;
+}
+
+#menu{
+    grid-column: 2;
+    grid-row: 2/4;
+    background-color: #7fad39;
+    height: 50px;
+}
+
+#banner{
+    grid-column: 3/6;
+    grid-row: 3/4;
+}
+
+#busca{
+    grid-column: 3/6;
+    grid-row: 2;
+}
+
+#prod01{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+#prod02{
+    grid-column: 3;
+    grid-row: 4;
+}
+
+#prod03{
+    grid-column: 4;
+    grid-row: 4;
+}
+
+#prod04{
+    grid-column: 5;
+    grid-row: 4;
+}
+
+#home{
+    margin-right: 50px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#home:hover{
+    color: #7fad39;
+}
+
+#shop{
+    margin-right: 50px;
+    cursor: pointer;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#shop:hover{
+    color: #7fad39;
+}
+
+#pages{
+    margin-right: 50px;
+    cursor: pointer;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#pages:hover{
+    color: #7fad39;
+}
+
+#blog{
+    margin-right: 50px;
+    cursor: pointer;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#blog:hover{
+    color: #7fad39;
+}
+
+#contact{
+    margin-right: 50px;
+    cursor: pointer;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#contact:hover{
+    color: #7fad39;
+}
+
+#favorito{
+    padding-left: 200px;
+    padding-top: 13px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#carrinho{
+    padding-left: 250px;
+    padding-top: 13px;
+    cursor: pointer;
+}
+
+#item{
+    font-size: 14px;
+    font-variant: normal;
+    padding-top: 20px;
+    padding-left: 12px;
+}
+
+#valor{
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 21px;
+    padding-left: 2px;
+}
+
+#menu_imagem{  
